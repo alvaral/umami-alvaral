@@ -34,4 +34,4 @@ jobs:
           tags: ghcr.io/${{ github.repository }}:latest
           build-args: |
             DATABASE_TYPE=postgresql
-            BASE_PATH=/
+            BASE_PATH=
